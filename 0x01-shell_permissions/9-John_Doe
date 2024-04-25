@@ -1,12 +1,2 @@
-total 40
--rwx------ 1 root root 21 Apr 14 13:27 0-iam_betty
--rwx------ 1 root root 19 Apr 25 00:55 1-who_am_i
--rwx------ 1 root root 19 Apr 25 01:34 2-groups
--rwx------ 1 root root 30 Apr 25 01:44 3-new_owner
--rwx------ 1 root root 24 Apr 25 01:49 4-empty
--rwx------ 1 root root 28 Apr 25 02:32 5-execute
--rwx------ 1 root root 33 Apr 25 02:38 6-multiple_permissions
--rwx------ 1 root root 28 Apr 25 02:48 7-everybody
--rwx------ 1 root root 28 Apr 25 02:52 8-James_Bond
--rwx------ 1 root root  0 Apr 25 03:00 9-John_Doe
--rw-r--r-- 1 root root  8 Apr 25 01:31 README.md
+#!/bin/bash
+chmod 753 hello
